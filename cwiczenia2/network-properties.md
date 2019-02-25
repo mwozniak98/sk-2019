@@ -77,6 +77,13 @@ Efekt
 
 Warto wiedzieć
 --------------
+if up; if down; ip a; nmcli
+sytemctl stop firewall -centos 
+curl -d '{"text":"hello"}' http//ip :8888/chat - wysyla wiad
+curl -d '{"last_message_id":-1}' http//ip :8888/messages | python-m json.tool
+sudo apt git
+yum install git
+
 
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
