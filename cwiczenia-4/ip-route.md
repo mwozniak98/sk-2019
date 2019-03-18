@@ -8,7 +8,7 @@ Konfiguracja route
     * usuń trasę
     * zmień trasę
     * pobierz trasę dla adresu
-     
+     // ip addr flush dev enp0s3
 ip 
 -------------------------
 | subcommand    |  polecenie   | opis  |
