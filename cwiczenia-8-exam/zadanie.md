@@ -46,5 +46,5 @@ Rezultat końcowy potwierdzający poprawność konfiguracji
 
 Diagram w programie Dia
 --------------
-![DIAGRAM](diag.dia)
+![DIAGRAM](diag.svg)
  
