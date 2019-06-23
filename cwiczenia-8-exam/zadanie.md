@@ -15,7 +15,8 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 ---
  - LAN 1: 172.22.160.0/23
  - LAN 2:172.22.128.0/19
- Konfiguracja komputera PC0
+
+Konfiguracja komputera PC0
  --------------------------------
  Polecenia użyte przy konfiguracji:
 
