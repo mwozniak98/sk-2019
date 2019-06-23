@@ -101,4 +101,4 @@ Routing
  
 Diagram 
 --- 
-![diagram](diag2.svg)
+![diagram](dia2.svg)
