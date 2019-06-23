@@ -23,7 +23,8 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 - ip link set enp0s3 up
 - ip link set enp0s8 up
 - ip link set enp0s9 up
-
+- iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE
+- iptables -t nat -A POSTROUTING -s 172.22.128.0/19 -o enp0s3 -j MASQUERADE
 
  Konfiguracja komputera PC1
  --------------------------------
