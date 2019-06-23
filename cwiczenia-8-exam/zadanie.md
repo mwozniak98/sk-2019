@@ -45,7 +45,7 @@ Polecenia użyte przy konfiguracji:
 
 Rezultat końcowy potwierdzający poprawność konfiguracji
 ------------------------------------
-![ZADA](zada.png)
+![zada](zada.PNG)
 
 
 Diagram w programie Dia
