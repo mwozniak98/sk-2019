@@ -11,10 +11,10 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    * Przygotuj dokumentację powyższej architektury w formie graficznej w programie ``DIA``
    Rozwiązanie zadania:
  -------------------------------------------
- Utworzenie dwóch sieci LAN: 
- 
- LAN 1: 172.22.160.0/23
- LAN 2:172.22.128.0/19
+ Podział sieci na 2 podsieci:
+---
+ - LAN 1: 172.22.160.0/23
+ - LAN 2:172.22.128.0/19
  Konfiguracja komputera PC0
  --------------------------------
  Polecenia użyte przy konfiguracji:
