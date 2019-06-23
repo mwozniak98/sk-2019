@@ -11,34 +11,30 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    * Przygotuj dokumentację powyższej architektury w formie graficznej w programie ``DIA``
    Rozwiązanie zadania:
  -------------------------------------------
- 
+ Utworzenie dwóch sieci LAN
+ LAN 1: 172.22.160.0/23
+ LAN 2:172.22.128.0/19
  Konfiguracja komputera PC0
  --------------------------------
-![PC0](pc0.png)
+ Polecenia użyte przy konfiguracji:
 
-
-Dodatkowe polecenia użyte przy konfiguracji:
-
-- ip addr add 172.22.254.1/23 dev enp0s8
-- ip addr add 172.22.128.10/19 dev enp0s9
+- ip a add 172.22.160.1/23 dev enp0s3 
+- ip a add 172.22.128.1/19 dev enp0s8 (czyli LAN2)
 - ip link set enp0s3 up
 - ip link set enp0s8 up
 - ip link set enp0s9 up
-- cat /proc/sys/net/ipv4/ip_forward
-- echo 1 > /proc/sys/net/ipv4/ip_forward
-- iptables --table nat --append POSTROUTING --out-interface 10.0.2.15 -j MASQUERADE
-- iptables --append FORWARD --in-interface 172.22.254.1 -j ACCEPT
+
 
  Konfiguracja komputera PC1
  --------------------------------
   Polecenia użyte przy konfiguracji:
-- ip addr add 172.22.254.10/23 dev enp0s3
-- ip route add default 172.22.128.10
+- ip a add 172.22.160.100/23 dev enp0s3
+- ip route add default via 172.22.160.1
 
  Konfiguracja komputera PC2
  ---------------------------------
 Polecenia użyte przy konfiguracji:
-- ip addr add 172.22.254.200/19 dev enp0s3
+- ip a add 172.22.128.100/19 dev enp0s3
 - ip route add default 172.22.128.1
 
 
@@ -50,5 +46,5 @@ Rezultat końcowy potwierdzający poprawność konfiguracji
 
 Diagram w programie Dia
 --------------
-![DIAGRAM](exam_res.svg)
+![DIAGRAM](diag.dia)
  
