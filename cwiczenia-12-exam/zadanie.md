@@ -49,10 +49,10 @@
 
 ROZWIAZANIE
 --- 
-Podzeliłem sieć 188.156.220.160/27 na 2 podsieci:
-* 188.156.224.160/23  sieć dla sal, ilość hostów: 510(potrzeba 420)
+Podzielono sieć 188.156.220.160/27 na 2 podsieci:
+* 188.156.224.160/23  sieć dla sal, ilość hostów: 510(wymagana liczba 420)
 	* podsieć: 10.0.0.0/16
-* 188.156.220.160/22 sieć wifi, ilość hostów 1022(potrzeba 800)
+* 188.156.220.160/22 sieć wifi, ilość hostów 1022(wygana liczba 800)
 	*	podsieć: 10.10.0.0/22
 
 
@@ -71,7 +71,7 @@ Adresy każdej z sal:
 * 202: 10.0.202.0/26
 * 203: 10.0.203.0/26
 * 204: 10.0.204.0/26
-* kazda sala pomieści 64 komputery(wymagane 35)
+* kazda sala pomieści 64 komputery(wymagana liczba 35)
 
 * na każdym piętrze znajduje się po 140 komputerów co łącznie daje 420 komputerów.
 
@@ -101,4 +101,4 @@ Routing
  
 Diagram 
 --- 
-![diagram](koncept2.svg)
+![diagram](diag2.svg)
